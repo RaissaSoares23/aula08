@@ -29,3 +29,13 @@ def numeros(n):
 def soma (*b):
     res=a+b
     print(res)
+
+def textoReverso(t):
+    cont=0
+    for x in range(len(t)-1,-1,-1):
+        print(t[x], end = "")
+        if t[x]!="":
+            cont+=1
+    print(cont)
+
+def lista 
